@@ -1,12 +1,11 @@
-# ☁️ Day 02 — Portfolio Deployment on AWS EC2
+# Day 02 — Portfolio Website Deployment on AWS EC2 🚀
 
-## 🎯 Project Overview
+## 📌 Project Overview
 
-This is Day 2 of my **30 Days AWS & DevOps Practice Journey**.
+This project is a personal portfolio website deployed on an AWS EC2
+instance using Ubuntu Linux and Nginx.
 
-In this project, I created a personal portfolio website and deployed it on an **AWS EC2 Ubuntu server** using **Nginx**.
-
-The project focuses on understanding how source code can be managed with Git and GitHub and then deployed to a cloud server.
+The source code is maintained on GitHub and deployed to an EC2 server.
 
 ## 🛠️ Technologies Used
 
@@ -15,25 +14,33 @@ The project focuses on understanding how source code can be managed with Git and
 - Nginx
 - Git
 - GitHub
-- HTML
-- CSS
+- HTML5
+- CSS3
 - JavaScript
 
-## 🏗️ Architecture
+## 🔄 Deployment Workflow
 
 ```text
-Developer
-    ↓
-Local Portfolio Code
-    ↓
-Git
-    ↓
-GitHub
-    ↓
-AWS EC2
-    ↓
-Ubuntu Linux
-    ↓
-Nginx
-    ↓
-Live Portfolio Website
+Local Portfolio
+      ↓
+    Git
+      ↓
+   GitHub
+      ↓
+   AWS EC2
+      ↓
+ Ubuntu Linux
+      ↓
+    Nginx
+      ↓
+ Live Portfolio Website
+
+## Day-02-Portfolio-Deployment/
+│
+├── README.md
+├── src/
+│   ├── index.html
+│   ├── style.css
+│   └── script.js
+│
+└── screenshots/
