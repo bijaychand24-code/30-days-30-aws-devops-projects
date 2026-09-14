@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.card {
+    margin: 30px 0;
+    padding: 30px;
+    border-radius: 15px;
+    background: #1e293b;
+}
+
+.card h2 {
+    margin-bottom: 15px;
+}
+
+.tech {
+    margin-top: 20px;
+    font-size: 14px;
+}
